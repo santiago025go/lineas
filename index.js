@@ -1,3 +1,20 @@
+var us = document.getElementById("usuario");
+var cont = document.getElementById("contraseña");
+var bv = document.getElementById("enviar");
+bv. addEventListener("click", recabar);
+var pantalla = document.getElementById("pantalla");
+var contenido = document.getElementById("contenido");
+
+function recabar(){
+  var usuario = us.value;
+  var contraseña = cont.value;
+
+  if(usuario == "santiago" && contraseña == "123"){
+      pantalla.style.display = "none";
+      contenido.style.display = "inherit";
+  }
+}
+
 var l = document.getElementById("canvas");
 var lienzo = l.getContext("2d");
 var botbo = document.getElementById("clear");

@@ -6,6 +6,14 @@
     <title>Mi portafolio</title>
   </head>
   <body>
+
+    <div id="pantalla">
+      <input type="text" id="usuario" placeholder="usuario" required autofocus><br />
+      <input type="password" id="contraseña" placeholder="contraseña" required><br />
+      <input type="button" id="enviar" value="Verificar">
+    </div>
+
+    <div id="contenido">
     <h1>¡Bienvenido! comienza a dibujar</h1>
     <canvas id="canvas" width="300" height="300"></canvas><br />
     <input type="text" id="color" placeholder="Escribe un color en inlglés">
@@ -13,6 +21,7 @@
     <input type="number" id="numero" placeholder="Escribe el numero de lineas">
     <button type="button" name="button" id="boton">Dibujar</button>
     <button type="button" name="button" id="clear">Clear</button>
+  </div>
   <script type="text/javascript" src="index.js"></script>
   </body>
 </html>
